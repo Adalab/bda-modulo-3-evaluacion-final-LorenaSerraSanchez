@@ -1,24 +1,23 @@
-EVALUACIÓN MÓDULO 3
+## EVALUACIÓN MÓDULO 3
 
 Alumna Serra Lorena
 
 
 Este repositorio contiene el desarrollo técnico y analítico de la base de datos de una aerolínea. El objetivo del proyecto es transformar datos brutos de actividad y perfiles de clientes en información estratégica que permita optimizar el programa de fidelización y entender los hábitos de consumo según variables demográficas y económicas.
 
-Estructura de Datos:
+# Estructura de Datos:
 El análisis se basa en la integración de dos fuentes principales:
 
-Customer Flight Activity: Registro detallado de las reservaciones, meses de actividad y distancia recorrida por los pasajeros.
+- Customer Flight Activity: Registro detallado de las reservaciones, meses de actividad y distancia recorrida por los pasajeros.
 
-Customer Loyalty History: Base de datos con el perfil sociodemográfico (Educación, Salario, Estado Civil) y nivel de fidelidad (Tipo de Tarjeta).
+- Customer Loyalty History: Base de datos con el perfil sociodemográfico (Educación, Salario, Estado Civil) y nivel de fidelidad (Tipo de Tarjeta).
+
+# Fases:
 
 Fase 1: Preprocesamiento y Limpieza
 Para asegurar la calidad de las conclusiones, se ejecutaron las siguientes tareas de ingeniería de datos:
-
 Unificación de Fuentes: Ejecución de un left join para consolidar la actividad de vuelo con el perfil de lealtad de cada cliente.
-
 Tratamiento de Nulos: Análisis e imputación de valores faltantes en la columna Salary, asegurando que el sesgo estadístico fuera mínimo.
-
 Normalización: Ajuste de tipos de datos y eliminación de registros inconsistentes para preparar el dataset para el análisis exploratorio (EDA).
 
 Fase 2: Visualización de Variables Categóricas
